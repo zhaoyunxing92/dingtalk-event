@@ -9,8 +9,8 @@ import (
 	"go.uber.org/zap"
 )
 
-var client = dingtalk.NewClient(1423051829, "dinggkluifooodnghss9",
-	"1wptnXj8VFHQKayDdcCkgbD-iiqoc_UnEPevIGQUszLrHDNrcRkTB52Z8sqXbym6",
+var client = dingtalk.NewClient(23434, "dinggkluifooodnghss9",
+	"1wptnXj8VFHQKayDdcCkgbD-",
 	dingtalk.WithLevel(zap.DebugLevel))
 
 func main() {
